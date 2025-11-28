@@ -87,10 +87,3 @@ tfidf = TfidfVectorizer(token_pattern=r"(?u)\b\w+\b")
 tfidf_matrix = tfidf.fit_transform(movies['genres'])
 cosine_sim = linear_kernel(tfidf_matrix, tfidf_matrix)
 
-📦 Requirements
-streamlit
-pandas
-scikit-learn
-
-You’ve hit the Free plan limit for GPT-5.
-You need GPT-5 to continue this chat because there's an attachment. You
